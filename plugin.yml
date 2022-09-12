@@ -4,3 +4,13 @@ api: 4.0.0
 version: 0.0.1
 author: candle#1166
 website: discord.gg/retronix
+
+commands: 
+  nick:
+    description: nick command description
+    permission: nick.command
+
+permissions:
+  nick.command:
+    description: Permission Description...
+    default: op   
